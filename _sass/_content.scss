@@ -1,0 +1,42 @@
+.content {
+    margin-bottom: 4rem;
+    font-size: 1.25rem;
+}
+
+.content {
+    h1 {
+        font-weight: normal;
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin: 0;
+        display: inline;
+        background: var(--highlight-background-color);
+    }
+    h2 {
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin: 3rem 0 0 0;
+    }
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.page-header a {
+    display: block;
+}
+
+.page-footer {
+    padding: 1rem;
+    display: flex;
+    color: #666;
+}
+
+.page-footer a {
+    margin: 0 0.125rem;
+    color: inherit;
+}
