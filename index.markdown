@@ -1,19 +1,11 @@
 ---
 layout: home
+title: Todd Lemoine is a software engineer in Portland, Oregon.
 ---
 
-I'm a conscientious developer who cares about accessibility and is keen to work on projects that help people. I've spent most of my career as a front-end engineer building enterprise-scale web applications that did things such as web analytics dashboards, systems requirements management, and content management, among others. I have fullstack experience with JS, Elixir, and Python backends (with node, Phoenix, and Flask, respectively), too.
+I'm a fullstack and frontend engineer with extensive experience building accessible web apps and usable UIs for enterprise companies. I've helped build streaming analytics dashboards, requirements management systems, and component libraries, supported mountains of legacy code, and migrated from one framework to another. Currently at [Symmetry Systems](https://symmetry-systems.com).
 
--   [Download my resume](/assets/todd_lemoine_resume.pdf), or [view it in the browser](/resume).
--   The latest thing I've posted about is
--   The best way to contact me is by email: todd.lemoine [at] gmail.com.
+I also wrote _A Strange Game_, a book with my own thoughts on navigating modern life. You can get it at [LeanPub](https://leanpub.com/astrangegame) and [Amazon](https://www.amazon.com/Strange-Game-Preparation-rest-your-ebook/dp/B01CIEET5W).
 
-## Other things I've done
-
--   I wrote _A Strange Game_, a book about my own take on navigating modern life. I plan to make it available online for free, but for now you can purchase it as an e-book from [ LeanPub ](https://leanpub.com/astrangegame) or [ Amazon ](https://www.amazon.com/Strange-Game-Preparation-rest-your-ebook/dp/B01CIEET5W).
-
--   A few years ago I created [Slidewriter.io](https://slidewriter.io), a tool for quickly creating presentations in Markdown. You can learn more about it on its [project page](/projects/slidewriter).
-
-## The fine print
-
-Unless otherwise noted, everything on this site is copyright 2012-2022 Todd Lemoine.
+-   [You may want to download my résumé](/assets/todd_lemoine_resume.pdf)
+-   The best way to contact me is by email: [todd.lemoine@gmail.com](mailto:todd.lemoine@gmail.com).

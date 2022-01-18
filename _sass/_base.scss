@@ -1,9 +1,10 @@
 :root {
-    --font-family: 'Times', 'Times New Roman', serif;
+    --font-family: 'DM Mono', 'Times', 'Times New Roman', serif;
     --font-size: 16px;
     --primary-text-color: hsl(0, 0%, 5%);
     --primary-link-color: blue;
     --highlight-background-color: rgb(253, 249, 11);
+    --background-color: rgba(248, 248, 248, 1);
 }
 
 a {
@@ -11,12 +12,16 @@ a {
 }
 
 body {
+    background-color: var(--background-color);
     line-height: 1.6;
     color: var(--primary-text-color);
     font-family: var(--font-family);
     font-size: var(--font-size);
     display: grid;
     grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        'sidebar content'
+        'footer footer';
     margin: 0;
     padding: 0;
 }
@@ -25,13 +30,49 @@ main {
     padding: 3.5rem 1rem 1rem 1rem;
     max-width: 600px;
     margin-bottom: 4rem;
+    grid-area: content;
 }
 
-nav h2 {
-    margin: 0;
-    font-size: 1.15rem;
+li {
+    margin-bottom: 1rem;
 }
 
-header nav {
-    margin: 0.5rem 0;
+.page-header {
+    grid-area: sidebar;
+    nav {
+        margin: 0.5rem 0;
+
+        h2 {
+            margin: 0;
+            font-size: 1.15rem;
+        }
+    }
+}
+
+.page-footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: x-small;
+    padding: 1rem;
+}
+
+.home {
+    font-weight: bold;
+    display: block;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'content'
+            'sidebar'
+            'footer';
+    }
+    main {
+        margin-bottom: 0rem;
+    }
 }
